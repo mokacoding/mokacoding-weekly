@@ -1,6 +1,6 @@
 Intro
 
----
+<br/><hr/><br/>
 
 ## [Link #1]()
 
@@ -14,6 +14,6 @@ Lorem ipsum...
 
 Lorem ipsum
 
---
+<br/><hr/><br/>
 
 Outtro
