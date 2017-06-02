@@ -1,16 +1,22 @@
 Intro
 
-<br/><hr/><br/>
+<br/>
 
 ### [Link #1]()
+
+<br/>
 
 Lorem ipsum...
 
 ### [Link #2]()
 
+<br/>
+
 Lorem ipsum...
 
 ### [Link #3]()
+
+<br/>
 
 Lorem ipsum
 
