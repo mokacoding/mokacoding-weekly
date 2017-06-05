@@ -1,6 +1,6 @@
-You might have noticed that last week there was no issue. That is because I was travelling and run out of time to write up a decent issue, so rather than sending out something I would have considered mediocre and waste your time I decided to skip. I could have sent a placeholder message but that would have been equally a waste, and borderline spammy.
+You might have noticed that last week there was no issue. I was travelling and ended up not having enough time to put together a list decent enough to share. Sorry about that.
 
-Some of you have taken [the survey](https://goo.gl/forms/20rXsVVtkzQUqkqc2) to help me improve the newsletter, thanks a lot for taking the time. If you haven't yet I'd really appreciate if you could spare a few minutes to [fill in the survey](https://goo.gl/forms/20rXsVVtkzQUqkqc2).
+Some of you have taken [the survey](https://goo.gl/forms/20rXsVVtkzQUqkqc2) to help me improve the newsletter, thanks a lot for taking the time 💚. If you haven't yet I'd really appreciate if you could spare a few minutes to [fill in the survey](https://goo.gl/forms/20rXsVVtkzQUqkqc2) 🙏.
 
 If you'll be at WWDC next week I hope you'll have a great time 😎.
 
@@ -45,3 +45,5 @@ Learning about `git add -p`, which allows to interactively stage hunks of code t
 [Joe L. Wroten](https://twitter.com/SharpShark28) describes the technique in this post, and goes as far as calling it "self code review". I wouldn't quite call it that, but I encourage you to learn about this valuable technique anyway.
 
 <br/><hr/><br/>
+
+_Remember to [take the survey](https://goo.gl/forms/20rXsVVtkzQUqkqc2) 😉._
