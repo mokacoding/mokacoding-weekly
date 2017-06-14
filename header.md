@@ -1,3 +1,0 @@
-# mokacoding weekly
-
-<!-- Header end -->

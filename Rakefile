@@ -1,9 +1,26 @@
+require 'erb'
+require 'tmpdir'
+
 issues_folder = 'issues'
 
 desc "Generate the HTML code for the latest issue, and copy it to the clipboar"
 task :build do
   latest = Dir["#{issues_folder}/*.md"].last
-  sh "redcarpet --smarty header.md #{latest} footer.md | pbcopy"
+
+  number = File.basename(latest, File.extname(latest))
+    .split('-')
+    .last
+    .to_i
+    .to_s
+
+  renderer = ERB.new(File.read('header.md.erb'))
+
+  path = Dir.pwd
+
+  Dir.mktmpdir do |tmpdir|
+    File.open("#{tmpdir}/header.md", 'w') { |f| f.write(renderer.result(binding)) }
+    sh "redcarpet --smarty #{tmpdir}/header.md #{path}/#{latest} #{path}/footer.md | pbcopy"
+  end
   puts "👍  HTML code for #{latest} copied to clipboard"
 end
 
